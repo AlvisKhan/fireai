@@ -1,0 +1,272 @@
+[
+  {
+    "gross": 100000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 0,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 299990,
+    "age": 30,
+    "resident": true,
+    "expected_old": 0,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 300000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 0,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 300010,
+    "age": 30,
+    "resident": true,
+    "expected_old": 0,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 374990,
+    "age": 30,
+    "resident": true,
+    "expected_old": 0,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 375000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 0,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 375010,
+    "age": 30,
+    "resident": true,
+    "expected_old": 0,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 549990,
+    "age": 30,
+    "resident": true,
+    "expected_old": 0,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 550000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 0,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 550005,
+    "age": 30,
+    "resident": true,
+    "expected_old": 13000,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 600000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 23400,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 749990,
+    "age": 30,
+    "resident": true,
+    "expected_old": 54600,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 774990,
+    "age": 30,
+    "resident": true,
+    "expected_old": 59800,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 775000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 59800,
+    "expected_new": 0,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 775005,
+    "age": 30,
+    "resident": true,
+    "expected_old": 59800,
+    "expected_new": 10,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 775100,
+    "age": 30,
+    "resident": true,
+    "expected_old": 59820,
+    "expected_new": 100,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 797220,
+    "age": 30,
+    "resident": true,
+    "expected_old": 64420,
+    "expected_new": 23110,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 797230,
+    "age": 30,
+    "resident": true,
+    "expected_old": 64420,
+    "expected_new": 23110,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 1050000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 117000,
+    "expected_new": 49400,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 1075000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 124800,
+    "expected_new": 52000,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 1275000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 187200,
+    "expected_new": 83200,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 1575000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 280800,
+    "expected_new": 145600,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 5050000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 1365000,
+    "expected_new": 1229800,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 5075010,
+    "age": 30,
+    "resident": true,
+    "expected_old": 1391010,
+    "expected_new": 1237610,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 10050010,
+    "age": 30,
+    "resident": true,
+    "expected_old": 3217510,
+    "expected_new": 3068780,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 10075010,
+    "age": 30,
+    "resident": true,
+    "expected_old": 3243510,
+    "expected_new": 3077370,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 20050010,
+    "age": 30,
+    "resident": true,
+    "expected_old": 6951760,
+    "expected_new": 6796270,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 20075010,
+    "age": 30,
+    "resident": true,
+    "expected_old": 6977760,
+    "expected_new": 6805250,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 50050010,
+    "age": 30,
+    "resident": true,
+    "expected_old": 19256260,
+    "expected_new": 19087250,
+    "official_old": null,
+    "official_new": null
+  },
+  {
+    "gross": 60000000,
+    "age": 30,
+    "resident": true,
+    "expected_old": 25357880,
+    "expected_new": 22967750,
+    "official_old": null,
+    "official_new": null
+  }
+]
