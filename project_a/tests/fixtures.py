@@ -1,4 +1,4 @@
-"""FY 2024–25 expectations derived separately from the production calculator."""
+"""Salary tax expectations derived separately from the production calculator."""
 
 from fractions import Fraction as F
 
@@ -7,7 +7,7 @@ def rounded(amount):
     return ((int(amount) + 5) // 10) * 10
 
 
-def expected_salary_only(gross, age, resident, new):
+def expected_salary_only(gross, age, resident, new, fy="2024-25"):
     """Use changes in marginal rate to calculate the statutory test oracle."""
     income = rounded(max(0, gross - (75_000 if new else 50_000)))
     basic = 250_000
@@ -18,6 +18,8 @@ def expected_salary_only(gross, age, resident, new):
         if new else
         ((basic, 5), (500_000, 15), (1_000_000, 10))
     )
+    if new and fy == "2025-26":
+        changes = tuple((start, 5) for start in range(400_000, 2_400_001, 400_000))
     thresholds = [(5_000_000, 10), (10_000_000, 15), (20_000_000, 25)]
     if not new:
         thresholds.append((50_000_000, 37))
@@ -28,7 +30,8 @@ def expected_salary_only(gross, age, resident, new):
     tax = slab(income)
     if resident:
         if new:
-            tax = min(tax, max(0, income - 700_000))
+            threshold = 700_000 if fy == "2024-25" else 1_200_000
+            tax = min(tax, max(0, income - threshold))
         elif income <= 500_000:
             tax = 0
 

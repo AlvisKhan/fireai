@@ -1,0 +1,381 @@
+{
+  "cases": 50,
+  "counts": {
+    "correct_status": 35,
+    "unsafe_completion": 3,
+    "error": 10,
+    "correct_clarification": 7
+  },
+  "results": [
+    {
+      "case": 1,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 12.054511
+    },
+    {
+      "case": 2,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 2.420723
+    },
+    {
+      "case": 3,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 3.243113
+    },
+    {
+      "case": 4,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 6.418672
+    },
+    {
+      "case": 5,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 15.57006
+    },
+    {
+      "case": 6,
+      "expected": "complete",
+      "status": "out_of_scope",
+      "field": null,
+      "expected_field": null,
+      "seconds": 15.017256
+    },
+    {
+      "case": 7,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 5.064111
+    },
+    {
+      "case": 8,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 2.07598
+    },
+    {
+      "case": 9,
+      "status": "error",
+      "error": "Gemini returned HTTP 503"
+    },
+    {
+      "case": 10,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 1.659017
+    },
+    {
+      "case": 11,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 2.689175
+    },
+    {
+      "case": 12,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 1.42345
+    },
+    {
+      "case": 13,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 13.712279
+    },
+    {
+      "case": 14,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 3.914107
+    },
+    {
+      "case": 15,
+      "expected": "complete",
+      "status": "clarify",
+      "field": "hra_received",
+      "expected_field": null,
+      "seconds": 1.719239
+    },
+    {
+      "case": 16,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 1.687672
+    },
+    {
+      "case": 17,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 14.598746
+    },
+    {
+      "case": 18,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 1.64129
+    },
+    {
+      "case": 19,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 11.916137
+    },
+    {
+      "case": 20,
+      "expected": "complete",
+      "status": "complete",
+      "field": null,
+      "expected_field": null,
+      "seconds": 8.130329
+    },
+    {
+      "case": 21,
+      "expected": "clarify",
+      "status": "complete",
+      "field": null,
+      "expected_field": "residency",
+      "seconds": 28.225017
+    },
+    {
+      "case": 22,
+      "status": "error",
+      "error": "The read operation timed out"
+    },
+    {
+      "case": 23,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "year",
+      "expected_field": "year",
+      "seconds": 4.918263
+    },
+    {
+      "case": 24,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "gross",
+      "expected_field": "gross",
+      "seconds": 5.656377
+    },
+    {
+      "case": 25,
+      "status": "error",
+      "error": "Gemini returned HTTP 503"
+    },
+    {
+      "case": 26,
+      "expected": "clarify",
+      "status": "complete",
+      "field": null,
+      "expected_field": "pay_period",
+      "seconds": 8.068773
+    },
+    {
+      "case": 27,
+      "status": "error",
+      "error": "Gemini returned HTTP 503"
+    },
+    {
+      "case": 28,
+      "status": "error",
+      "error": "Gemini returned HTTP 503"
+    },
+    {
+      "case": 29,
+      "status": "error",
+      "error": "Gemini returned HTTP 503"
+    },
+    {
+      "case": 30,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "investments_80c",
+      "expected_field": "parent_age",
+      "seconds": 6.852273
+    },
+    {
+      "case": 31,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "home_interest",
+      "expected_field": "home_interest",
+      "seconds": 1.945979
+    },
+    {
+      "case": 32,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "nps_80ccd",
+      "expected_field": "nps_allocation",
+      "seconds": 2.565548
+    },
+    {
+      "case": 33,
+      "status": "error",
+      "error": "Gemini returned HTTP 503"
+    },
+    {
+      "case": 34,
+      "status": "error",
+      "error": "Gemini returned HTTP 503"
+    },
+    {
+      "case": 35,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "resident",
+      "expected_field": "residency",
+      "seconds": 3.444929
+    },
+    {
+      "case": 36,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "fy",
+      "expected_field": "age",
+      "seconds": 2.877332
+    },
+    {
+      "case": 37,
+      "expected": "clarify",
+      "status": "complete",
+      "field": null,
+      "expected_field": "year",
+      "seconds": 1.67798
+    },
+    {
+      "case": 38,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "hra_received",
+      "expected_field": "deductions",
+      "seconds": 1.874616
+    },
+    {
+      "case": 39,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "rent_paid",
+      "expected_field": "rent_paid",
+      "seconds": 1.549876
+    },
+    {
+      "case": 40,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "hra_salary",
+      "expected_field": "hra_received",
+      "seconds": 2.021806
+    },
+    {
+      "case": 41,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "gross",
+      "expected_field": "gross",
+      "seconds": 2.034508
+    },
+    {
+      "case": 42,
+      "status": "error",
+      "error": "Gemini returned HTTP 503"
+    },
+    {
+      "case": 43,
+      "expected": "clarify",
+      "status": "clarify",
+      "field": "gross",
+      "expected_field": "gross",
+      "seconds": 57.724448
+    },
+    {
+      "case": 44,
+      "status": "error",
+      "error": "Gemini returned HTTP 503"
+    },
+    {
+      "case": 45,
+      "expected": "out_of_scope",
+      "status": "out_of_scope",
+      "field": null,
+      "expected_field": null,
+      "seconds": 1.846819
+    },
+    {
+      "case": 46,
+      "expected": "out_of_scope",
+      "status": "out_of_scope",
+      "field": null,
+      "expected_field": null,
+      "seconds": 1.862652
+    },
+    {
+      "case": 47,
+      "expected": "out_of_scope",
+      "status": "out_of_scope",
+      "field": null,
+      "expected_field": null,
+      "seconds": 10.451782
+    },
+    {
+      "case": 48,
+      "expected": "out_of_scope",
+      "status": "out_of_scope",
+      "field": null,
+      "expected_field": null,
+      "seconds": 17.301941
+    },
+    {
+      "case": 49,
+      "expected": "out_of_scope",
+      "status": "out_of_scope",
+      "field": null,
+      "expected_field": null,
+      "seconds": 1.295613
+    },
+    {
+      "case": 50,
+      "expected": "out_of_scope",
+      "status": "out_of_scope",
+      "field": null,
+      "expected_field": null,
+      "seconds": 2.51754
+    }
+  ]
+}
