@@ -66,7 +66,7 @@ def score(kind, family, detector, clean, changed, labels, usd_input=None, usd_ou
             "usd_per_million_rows": cost, "example_explanation": next(iter(dirty.values()), None)}
 
 
-def benchmark(rows, use_gemini=False, usd_input=None, usd_output=None):
+def benchmark(rows, use_gemini=False, usd_input=None, usd_output=None, gemini_checks=KINDS):
     shuffled = list(rows)
     Random(311).shuffle(shuffled)
     split = len(shuffled) // 2
@@ -97,7 +97,7 @@ def benchmark(rows, use_gemini=False, usd_input=None, usd_output=None):
         def remote(check, batch):
             return llm_review(check, batch, generate)
 
-        for kind in KINDS:
+        for kind in gemini_checks:
             changed, labels = inject(fictional, kind, 0.20, 312)
             for name, detector in (
                 ("rules", lambda check, batch: (rules(check, batch, fictional_baseline), None)),
@@ -121,12 +121,14 @@ def main():
     cli = argparse.ArgumentParser(description=__doc__)
     cli.add_argument("--data", type=Path, default=Path(".fireai-data/nyc311.csv"))
     cli.add_argument("--gemini", action="store_true")
+    cli.add_argument("--gemini-checks", nargs="+", choices=KINDS, default=KINDS)
     cli.add_argument("--input-usd-per-million", type=float)
     cli.add_argument("--output-usd-per-million", type=float)
     args = cli.parse_args()
     if not args.data.exists():
         download(args.data)
-    result = benchmark(load(args.data), args.gemini, args.input_usd_per_million, args.output_usd_per_million)
+    result = benchmark(load(args.data), args.gemini, args.input_usd_per_million,
+                       args.output_usd_per_million, args.gemini_checks)
     result["dataset_sha256"] = hashlib.sha256(args.data.read_bytes()).hexdigest()
     print(json.dumps(result, indent=2))
 

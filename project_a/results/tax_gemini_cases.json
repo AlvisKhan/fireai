@@ -1,0 +1,575 @@
+{
+  "method": "gemini",
+  "fy": "2024-25",
+  "requests": 30,
+  "errors": 28,
+  "exact_both": 1,
+  "model_raw_exact_both": 9,
+  "median_success_seconds": 2.1652435829964816,
+  "repeatability": null,
+  "results": [
+    {
+      "case": 1,
+      "attempt": 1,
+      "expected": [
+        0,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 571,
+        "totalTokenCount": 1494,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        0,
+        0
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 2.4389792919973843
+    },
+    {
+      "case": 2,
+      "attempt": 1,
+      "expected": [
+        0,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 513,
+        "totalTokenCount": 1436,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        0,
+        0
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 2.1211885420052567
+    },
+    {
+      "case": 3,
+      "attempt": 1,
+      "expected": [
+        0,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 531,
+        "totalTokenCount": 1454,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        0,
+        0
+      ],
+      "payable": [
+        0,
+        0
+      ],
+      "correct": true,
+      "seconds": 2.1223996659973636
+    },
+    {
+      "case": 4,
+      "attempt": 1,
+      "expected": [
+        0,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 635,
+        "totalTokenCount": 1558,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        0,
+        0
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 2.1968807500088587
+    },
+    {
+      "case": 5,
+      "attempt": 1,
+      "expected": [
+        0,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 700,
+        "totalTokenCount": 1623,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        0,
+        0
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 2.411740292009199
+    },
+    {
+      "case": 6,
+      "attempt": 1,
+      "expected": [
+        0,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 508,
+        "totalTokenCount": 1431,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        0,
+        0
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 3.2376708749943646
+    },
+    {
+      "case": 7,
+      "attempt": 1,
+      "expected": [
+        0,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 552,
+        "totalTokenCount": 1475,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        0,
+        0
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 1.8702236660028575
+    },
+    {
+      "case": 8,
+      "attempt": 1,
+      "expected": [
+        0,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 784,
+        "totalTokenCount": 1707,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        0,
+        0
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 2.8306307080056285
+    },
+    {
+      "case": 9,
+      "attempt": 1,
+      "expected": [
+        0,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 551,
+        "totalTokenCount": 1474,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        0,
+        0
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 2.115703167000902
+    },
+    {
+      "case": 10,
+      "attempt": 1,
+      "expected": [
+        13000,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 555,
+        "totalTokenCount": 1478,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        0,
+        0
+      ],
+      "payable": [
+        0,
+        0
+      ],
+      "correct": false,
+      "seconds": 2.2080874999955995
+    },
+    {
+      "case": 11,
+      "attempt": 1,
+      "expected": [
+        23400,
+        0
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 637,
+        "totalTokenCount": 1560,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        26000,
+        0
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 2.438978624995798
+    },
+    {
+      "case": 12,
+      "attempt": 1,
+      "expected": [
+        54600,
+        0
+      ],
+      "error": "The read operation timed out",
+      "seconds": 60.189177457999904
+    },
+    {
+      "case": 13,
+      "attempt": 1,
+      "expected": [
+        59800,
+        0
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.5728909580066102
+    },
+    {
+      "case": 14,
+      "attempt": 1,
+      "expected": [
+        59800,
+        0
+      ],
+      "error": "Gemini returned HTTP 503",
+      "seconds": 3.127820082998369
+    },
+    {
+      "case": 15,
+      "attempt": 1,
+      "expected": [
+        59800,
+        10
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.6540528329933295
+    },
+    {
+      "case": 16,
+      "attempt": 1,
+      "expected": [
+        59820,
+        100
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 923,
+        "candidatesTokenCount": 684,
+        "totalTokenCount": 1607,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 923
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        60320,
+        25040
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 2.834624666997115
+    },
+    {
+      "case": 17,
+      "attempt": 1,
+      "expected": [
+        64420,
+        23110
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.42175762499391567
+    },
+    {
+      "case": 18,
+      "attempt": 1,
+      "expected": [
+        64420,
+        23110
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.5903686249948805
+    },
+    {
+      "case": 19,
+      "attempt": 1,
+      "expected": [
+        117000,
+        49400
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.45679070899495855
+    },
+    {
+      "case": 20,
+      "attempt": 1,
+      "expected": [
+        124800,
+        52000
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.41334162499697413
+    },
+    {
+      "case": 21,
+      "attempt": 1,
+      "expected": [
+        187200,
+        83200
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.5668512910051504
+    },
+    {
+      "case": 22,
+      "attempt": 1,
+      "expected": [
+        280800,
+        145600
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.606314917007694
+    },
+    {
+      "case": 23,
+      "attempt": 1,
+      "expected": [
+        1365000,
+        1229800
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.5462275830068393
+    },
+    {
+      "case": 24,
+      "attempt": 1,
+      "expected": [
+        1391010,
+        1237610
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.5353186249994906
+    },
+    {
+      "case": 25,
+      "attempt": 1,
+      "expected": [
+        3217510,
+        3068780
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.5229424999997718
+    },
+    {
+      "case": 26,
+      "attempt": 1,
+      "expected": [
+        3243510,
+        3077370
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 925,
+        "candidatesTokenCount": 930,
+        "totalTokenCount": 1855,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 925
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        3255250,
+        3240000
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 3.1508285000018077
+    },
+    {
+      "case": 27,
+      "attempt": 1,
+      "expected": [
+        6951760,
+        6796270
+      ],
+      "error": "Gemini returned HTTP 429",
+      "seconds": 0.4504708330059657
+    },
+    {
+      "case": 28,
+      "attempt": 1,
+      "expected": [
+        6977760,
+        6805250
+      ],
+      "error": "The read operation timed out",
+      "seconds": 60.17865487499512
+    },
+    {
+      "case": 29,
+      "attempt": 1,
+      "expected": [
+        19256260,
+        19087250
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 925,
+        "candidatesTokenCount": 621,
+        "totalTokenCount": 1546,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 925
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        15734700,
+        15592200
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 2.5883042920031585
+    },
+    {
+      "case": 30,
+      "attempt": 1,
+      "expected": [
+        25357880,
+        22967750
+      ],
+      "model": "gemini-3.1-flash-lite",
+      "usage": {
+        "promptTokenCount": 925,
+        "candidatesTokenCount": 573,
+        "totalTokenCount": 1498,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 925
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "model_payable": [
+        23389800,
+        21573000
+      ],
+      "error": "Gemini trace does not reconcile to its reported total.",
+      "seconds": 4.077578875003383
+    }
+  ]
+}

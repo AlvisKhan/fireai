@@ -27,4 +27,21 @@ The full hybrid passed 2,000 rows through all twelve checks at about 65,799 rows
 
 Gemini scores are from matched synthetic batches only. Real text can contain unexpected identifiers. Synthetic results show capability on known perturbations and do not estimate real-world alert quality.
 
+| Synthetic check | Rule recall / false alarm | Statistical recall / false alarm | Gemini recall / false alarm | Gemini USD / M rows | Gemini rows/s |
+|---|---:|---:|---:|---:|---:|
+| schema | 100% / 0% | 100% / 0% | 100% / 0% | 78.86 | 8.74 |
+| type | 100% / 0% | 100% / 0% | 100% / 0% | 47.50 | 6.62 |
+| date_format | 100% / 0% | 100% / 0% | 100% / 0% | 47.38 | 13.29 |
+| swapped_coordinates | 100% / 0% | 100% / 0% | 100% / 0% | 46.02 | 8.13 |
+| duplicate | 100% / 0% | 100% / 0% | 100% / 0% | 45.96 | 2.00 |
+| near_duplicate | 100% / 0% | 100% / 0% | 100% / 0% | 46.89 | 6.64 |
+| null_spike | 100% / 0% | 100% / 0% | 100% / 0% | 47.62 | 1.35 |
+| chronology | 100% / 0% | 100% / 0% | 100% / 0% | 46.30 | 15.90 |
+| zip_borough | 100% / 0% | 100% / 0% | 100% / 0% | 49.40 | 1.17 |
+| descriptor | 100% / 0% | 100% / 0% | 0% / 0% | 38.17 | 7.45 |
+| resolution | 100% / 0% | 0% / 0% | 0% / 0% | 38.33 | 16.06 |
+| personal_data | 100% / 0% | 50% / 0% | 100% / 0% | 47.35 | 10.40 |
+
+The Gemini figures use one 20-row corrupted and one control batch per check. Seven checks returned both batches on the first pass. Retrying the five failures returned three more. The ten checks scored by that point had 100% injected recall and no control alerts. The remaining two initially returned HTTP 503 twice. On the final retry, both returned valid responses but missed every injected contradiction. Control alerts were zero for all twelve. Paid standard-rate projections use token counts from the corrupted batch, at USD 0.25 per million input tokens and USD 1.50 per million output tokens. The run used the free tier. Local screening is the default because the model produced no measured recall gain over the rule baseline across the synthetic checks, and contributes request errors and latency. [Gemini pricing](https://aistudio.google.com/docs/pricing#gemini-3.1-flash-lite)
+
 [NYC Open Data source](https://data.cityofnewyork.us/Social-Services/311-Service-Requests/erm2-nwe9) · [Local metrics](project_b/results/local.json) · [Annual aggregate](project_b/results/annual_source.json)

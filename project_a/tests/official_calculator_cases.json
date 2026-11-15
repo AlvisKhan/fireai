@@ -5,8 +5,10 @@
     "resident": true,
     "expected_old": 0,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 0,
+    "official_new": 0,
+    "official_old_raw": "0",
+    "official_new_raw": "0"
   },
   {
     "gross": 299990,
@@ -14,8 +16,10 @@
     "resident": true,
     "expected_old": 0,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 0,
+    "official_new": 0,
+    "official_old_raw": "0",
+    "official_new_raw": "0"
   },
   {
     "gross": 300000,
@@ -23,8 +27,10 @@
     "resident": true,
     "expected_old": 0,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 0,
+    "official_new": 0,
+    "official_old_raw": "0",
+    "official_new_raw": "0"
   },
   {
     "gross": 300010,
@@ -32,8 +38,10 @@
     "resident": true,
     "expected_old": 0,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 0,
+    "official_new": 0,
+    "official_old_raw": "0",
+    "official_new_raw": "0"
   },
   {
     "gross": 374990,
@@ -41,8 +49,10 @@
     "resident": true,
     "expected_old": 0,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 0,
+    "official_new": 0,
+    "official_old_raw": "0",
+    "official_new_raw": "0"
   },
   {
     "gross": 375000,
@@ -50,8 +60,10 @@
     "resident": true,
     "expected_old": 0,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 0,
+    "official_new": 0,
+    "official_old_raw": "0",
+    "official_new_raw": "0"
   },
   {
     "gross": 375010,
@@ -59,8 +71,10 @@
     "resident": true,
     "expected_old": 0,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 0,
+    "official_new": 0,
+    "official_old_raw": "0",
+    "official_new_raw": "0"
   },
   {
     "gross": 549990,
@@ -68,8 +82,10 @@
     "resident": true,
     "expected_old": 0,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 0,
+    "official_new": 0,
+    "official_old_raw": "0",
+    "official_new_raw": "0"
   },
   {
     "gross": 550000,
@@ -77,8 +93,10 @@
     "resident": true,
     "expected_old": 0,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 0,
+    "official_new": 0,
+    "official_old_raw": "0",
+    "official_new_raw": "0"
   },
   {
     "gross": 550005,
@@ -86,8 +104,10 @@
     "resident": true,
     "expected_old": 13000,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 13000,
+    "official_new": 0,
+    "official_old_raw": "13001",
+    "official_new_raw": "0"
   },
   {
     "gross": 600000,
@@ -95,8 +115,10 @@
     "resident": true,
     "expected_old": 23400,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 23400,
+    "official_new": 0,
+    "official_old_raw": "23400",
+    "official_new_raw": "0"
   },
   {
     "gross": 749990,
@@ -104,8 +126,10 @@
     "resident": true,
     "expected_old": 54600,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 54600,
+    "official_new": 0,
+    "official_old_raw": "54597",
+    "official_new_raw": "0"
   },
   {
     "gross": 774990,
@@ -113,8 +137,10 @@
     "resident": true,
     "expected_old": 59800,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 59800,
+    "official_new": 0,
+    "official_old_raw": "59797",
+    "official_new_raw": "0"
   },
   {
     "gross": 775000,
@@ -122,8 +148,10 @@
     "resident": true,
     "expected_old": 59800,
     "expected_new": 0,
-    "official_old": null,
-    "official_new": null
+    "official_old": 59800,
+    "official_new": 0,
+    "official_old_raw": "59800",
+    "official_new_raw": "0"
   },
   {
     "gross": 775005,
@@ -131,8 +159,10 @@
     "resident": true,
     "expected_old": 59800,
     "expected_new": 10,
-    "official_old": null,
-    "official_new": null
+    "official_old": 59800,
+    "official_new": 10,
+    "official_old_raw": "59801",
+    "official_new_raw": "5"
   },
   {
     "gross": 775100,
@@ -140,8 +170,10 @@
     "resident": true,
     "expected_old": 59820,
     "expected_new": 100,
-    "official_old": null,
-    "official_new": null
+    "official_old": 59820,
+    "official_new": 100,
+    "official_old_raw": "59820",
+    "official_new_raw": "104"
   },
   {
     "gross": 797220,
@@ -149,8 +181,10 @@
     "resident": true,
     "expected_old": 64420,
     "expected_new": 23110,
-    "official_old": null,
-    "official_new": null
+    "official_old": 64420,
+    "official_new": 23110,
+    "official_old_raw": "64421",
+    "official_new_raw": "23108"
   },
   {
     "gross": 797230,
@@ -158,8 +192,10 @@
     "resident": true,
     "expected_old": 64420,
     "expected_new": 23110,
-    "official_old": null,
-    "official_new": null
+    "official_old": 64420,
+    "official_new": 23110,
+    "official_old_raw": "64423",
+    "official_new_raw": "23111"
   },
   {
     "gross": 1050000,
@@ -167,8 +203,10 @@
     "resident": true,
     "expected_old": 117000,
     "expected_new": 49400,
-    "official_old": null,
-    "official_new": null
+    "official_old": 117000,
+    "official_new": 49400,
+    "official_old_raw": "117000",
+    "official_new_raw": "49400"
   },
   {
     "gross": 1075000,
@@ -176,8 +214,10 @@
     "resident": true,
     "expected_old": 124800,
     "expected_new": 52000,
-    "official_old": null,
-    "official_new": null
+    "official_old": 124800,
+    "official_new": 52000,
+    "official_old_raw": "124800",
+    "official_new_raw": "52000"
   },
   {
     "gross": 1275000,
@@ -185,8 +225,10 @@
     "resident": true,
     "expected_old": 187200,
     "expected_new": 83200,
-    "official_old": null,
-    "official_new": null
+    "official_old": 187200,
+    "official_new": 83200,
+    "official_old_raw": "187200",
+    "official_new_raw": "83200"
   },
   {
     "gross": 1575000,
@@ -194,8 +236,10 @@
     "resident": true,
     "expected_old": 280800,
     "expected_new": 145600,
-    "official_old": null,
-    "official_new": null
+    "official_old": 280800,
+    "official_new": 145600,
+    "official_old_raw": "280800",
+    "official_new_raw": "145600"
   },
   {
     "gross": 5050000,
@@ -203,8 +247,10 @@
     "resident": true,
     "expected_old": 1365000,
     "expected_new": 1229800,
-    "official_old": null,
-    "official_new": null
+    "official_old": 1365000,
+    "official_new": 1229800,
+    "official_old_raw": "1365000",
+    "official_new_raw": "1229800"
   },
   {
     "gross": 5075010,
@@ -212,8 +258,10 @@
     "resident": true,
     "expected_old": 1391010,
     "expected_new": 1237610,
-    "official_old": null,
-    "official_new": null
+    "official_old": 1391010,
+    "official_new": 1237610,
+    "official_old_raw": "1391010",
+    "official_new_raw": "1237610"
   },
   {
     "gross": 10050010,
@@ -221,8 +269,10 @@
     "resident": true,
     "expected_old": 3217510,
     "expected_new": 3068780,
-    "official_old": null,
-    "official_new": null
+    "official_old": 3217510,
+    "official_new": 3068780,
+    "official_old_raw": "3217510",
+    "official_new_raw": "3068783"
   },
   {
     "gross": 10075010,
@@ -230,8 +280,10 @@
     "resident": true,
     "expected_old": 3243510,
     "expected_new": 3077370,
-    "official_old": null,
-    "official_new": null
+    "official_old": 3243510,
+    "official_new": 3077370,
+    "official_old_raw": "3243510",
+    "official_new_raw": "3077370"
   },
   {
     "gross": 20050010,
@@ -239,8 +291,10 @@
     "resident": true,
     "expected_old": 6951760,
     "expected_new": 6796270,
-    "official_old": null,
-    "official_new": null
+    "official_old": 6951760,
+    "official_new": 6796270,
+    "official_old_raw": "6951760",
+    "official_new_raw": "6796273"
   },
   {
     "gross": 20075010,
@@ -248,8 +302,10 @@
     "resident": true,
     "expected_old": 6977760,
     "expected_new": 6805250,
-    "official_old": null,
-    "official_new": null
+    "official_old": 6977760,
+    "official_new": 6805250,
+    "official_old_raw": "6977760",
+    "official_new_raw": "6805250"
   },
   {
     "gross": 50050010,
@@ -257,8 +313,10 @@
     "resident": true,
     "expected_old": 19256260,
     "expected_new": 19087250,
-    "official_old": null,
-    "official_new": null
+    "official_old": 19256260,
+    "official_new": 19087250,
+    "official_old_raw": "19256260",
+    "official_new_raw": "19087253.75"
   },
   {
     "gross": 60000000,
@@ -266,7 +324,9 @@
     "resident": true,
     "expected_old": 25357880,
     "expected_new": 22967750,
-    "official_old": null,
-    "official_new": null
+    "official_old": 25357880,
+    "official_new": 22967750,
+    "official_old_raw": "25357878",
+    "official_new_raw": "22967750"
   }
 ]

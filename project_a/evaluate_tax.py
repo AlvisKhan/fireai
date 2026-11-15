@@ -9,7 +9,7 @@ from statistics import median
 from time import perf_counter
 
 from project_a.compiled import compare_compiled
-from project_a.tests.fixtures import expected_salary_only
+from project_a.tests.fixtures import expected_salary_only, salary_cases
 from project_a.llm_tax import read_tax, request_calculation
 from project_a.rules import Salary, compare
 
@@ -67,6 +67,8 @@ def main():
     cli.add_argument("--method", choices=("rules", "compiled", "gemini"), default="rules")
     cli.add_argument("--limit", type=int, default=30)
     cli.add_argument("--case", type=int, help="Select one fixture by its 1-based index.")
+    cli.add_argument("--threshold-suite", action="store_true",
+                     help="Use all 912 independently derived salary threshold cases.")
     cli.add_argument("--fy", choices=("2024-25", "2025-26"), default="2024-25")
     cli.add_argument("--repeats", type=int, default=1)
     args = cli.parse_args()
@@ -77,7 +79,16 @@ def main():
         cli.error("Invalid case number.")
     if args.method == "gemini" and not (os.getenv("GEMINI_API_KEY") and os.getenv("GEMINI_MODEL")):
         cli.error("Set GEMINI_API_KEY and GEMINI_MODEL before running Gemini.")
-    selected = cases[args.case - 1:args.case] if args.case else cases[:args.limit]
+    if args.threshold_suite:
+        if args.case is not None:
+            cli.error("--threshold-suite cannot be combined with --case.")
+        selected = [
+            {"gross": gross, "age": age, "resident": resident,
+             "expected_old": expected[0], "expected_new": expected[1]}
+            for gross, age, resident, expected in salary_cases()
+        ]
+    else:
+        selected = cases[args.case - 1:args.case] if args.case else cases[:args.limit]
     report = run(selected, args.method, args.repeats, fy=args.fy)
     if args.case:
         report["fixture_index"] = args.case
